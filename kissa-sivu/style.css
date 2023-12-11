@@ -1,0 +1,26 @@
+body {
+  font-family: Arial;
+  text-align: center;
+}
+img {
+  width: 300px;
+}
+.kiva-laatikko {
+  background-color: green;
+  border: solid;
+  border-color: red;
+}
+p {
+  font-size: 18px;
+}
+ul {
+  text-align: center;
+  list-style: inside;
+}
+.footer-text {
+  font-size: 14px;
+}
+.reasons-list {
+  list-style-position: inside;
+
+}

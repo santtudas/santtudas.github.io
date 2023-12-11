@@ -1,0 +1,10 @@
+body {
+  text-align: center;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.otsikko {
+  background-color: aqua;
+  margin: 0px 0px;
+  padding: 20px;
+}

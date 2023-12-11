@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Italiana&family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+  <section class="ylälista">
+    <ul id="yläpalkkilista">
+      <li>&#10003 Ilmainen toimitus yli 50€</li>
+      <li>&#10003 Päästökompensoitu</li>
+    </ul>
+  </section>
+  <nav class="container">
+    <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+      <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+        <svg class="bi me-2" width="40" height="32">
+          <use xlink:href="#bootstrap"></use>
+        </svg>
+        <span class="fs-3">KauneudenTaika</span>
+      </a>
+      <ul class="nav nav-pills">
+        <li class="nav-item"><a href="../index.html" class="nav-link">KOTI</a></li>
+        <li class="nav-item"><a href="#ukk" class="nav-link">UKK</a></li>
+      </ul>
+    </header>
+  </nav>
+  <section class="tuotekategoriat">
+    <div class="container">
+      <div class="row gy-4">
+        <div class="col-md-4">
+          <div class="card text-center">
+            <img src="Pictures/Hiukset.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Hiukset</h5>
+              <p class="card-text">Duis venenatis, felis non imperdiet accumsan, leo nisi imperdiet quam, tincidunt
+                volutpat lectus felis ac tortor.</p>
+              <a href="#" class="ylä-nappi btn btn-secondary">OSTA NYT</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card text-center">
+            <img src="Pictures/Kasvot.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Kasvot</h5>
+              <p class="card-text">Duis venenatis, felis non imperdiet accumsan, leo nisi imperdiet quam, tincidunt
+                volutpat lectus felis ac tortor.</p>
+              <a href="#" class="ylä-nappi btn btn-secondary">OSTA NYT</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card text-center">
+            <img src="Pictures/Vartalo.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Vartalo</h5>
+              <p class="card-text">Duis venenatis, felis non imperdiet accumsan, leo nisi imperdiet quam, tincidunt
+                volutpat lectus felis ac tortor.</p>
+              <a href="#" class="ylä-nappi btn btn-secondary">OSTA NYT</a>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+  <section>
+    <p class="väliotsikko">
+      <a href=#tuoksut>Meiltä nyt myös tuoksut!</a>
+    </p>
+  </section>
+  <section class="tuotekategoriat" id="tuoksut">
+    <div class="container">
+      <div class="row gy-4">
+        <div class="col-md-4">
+          <div class="card text-center">
+            <img src="Pictures/naistentuoksut.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Naisten tuoksut</h5>
+              <p class="card-text">Duis venenatis, felis non imperdiet accumsan, leo nisi imperdiet quam, tincidunt
+                volutpat lectus felis ac tortor.</p>
+              <a href="#" class="ylä-nappi btn btn-secondary">OSTA NYT</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card text-center">
+            <img src="Pictures/miestentuoksut.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Miesten tuoksut</h5>
+              <p class="card-text">Duis venenatis, felis non imperdiet accumsan, leo nisi imperdiet quam, tincidunt
+                volutpat lectus felis ac tortor.</p>
+              <a href="#" class="ylä-nappi btn btn-secondary">OSTA NYT</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card text-center">
+            <img src="Pictures/unisextuoksut.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Unisex tuoksut</h5>
+              <p class="card-text">Duis venenatis, felis non imperdiet accumsan, leo nisi imperdiet quam, tincidunt
+                volutpat lectus felis ac tortor.</p>
+              <a href="#" class="ylä-nappi btn btn-secondary">OSTA NYT</a>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+  <section id="ukk" class="py-3">
+    <h2 class="my-5 text-center" style="font-weight: bold;">Usein kysytyt kysymykset</h2>
+    <div class="accordion w-50 mx-auto" id="accordionExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingOne">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+            aria-expanded="true" aria-controls="collapseOne">
+            Kuinka kauan toimitusaika on?
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse collapse" aria-labelledby="headingOne"
+          data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            Normaali toimitusaikamme on 3-5 arkipäivää. Voit seurata tilauksesi etenemistä tilisi kautta, ja saat myös
+            ilmoituksen sähköpostitse, kun tilauksesi on lähetetty.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingTwo">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            Miten voin palauttaa tuotteen, jos se ei vastaa odotuksiani?
+          </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+          data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            Tarjoamme 30 päivän palautusoikeuden käyttämättömille ja alkuperäispakkauksessa oleville tuotteille. Ohjeet
+            palautuksen tekemiseen löydät "Palautukset ja vaihdot" -sivultamme.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            Onko tuotteillanne haitallisia kemikaaleja?
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+          data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            Kaikki myymämme kauneustuotteet ovat tarkoin valittuja ja vastaavat korkeimpia laatustandardeja.
+            Tuotteidemme ainesosat on lueteltu tuotesivuilla, ja voit ottaa yhteyttä asiakaspalveluumme saadaksesi
+            lisätietoja allergioita tai erityistarpeita koskien.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingFour">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseTwo">
+            Mitä teen, jos tuotteeni on viallinen?
+          </button>
+        </h2>
+        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+          data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            Jos tilaamasi tuote on hajonnut, ole yhteydessä asiakaspalveluumme. Lähetämme sinulle uuden ehjän tuotteen.
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-flex">
+      <div class="footeri">
+        <h3 id="footer-otsikko">
+          Uutiskirje
+        </h3>
+          <p class="footer-teksti">
+              Tilaa uutiskirjeemme ja ota selvää uusimmista tarjouksista ja trendeistä
+          </p>
+          <button style="font-size: 16px;">
+              Tilaa uutiskirje
+          </button>
+      </div>
+      <div class="footer-logot">
+        <p>
+          Seuraa meitä somessa
+        </p>
+        <ul id="footeri">
+          <li>
+            <a href=""><img src="Pictures/Footer-logot/facebook-logo.png" alt="FB"></a>
+          </li>
+          <li>
+            <a href=""><img src="Pictures/Footer-logot/instagram-logo.png" alt="IG"></a>
+          </li>
+          <li>
+            <a href=""><img src="Pictures/Footer-logot/twitter-logo.jpg" alt="Twitter"></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div>
+      <p class="copyright-teksti">
+        Copyright ©2023: Santeri Pulliainen
+      </p>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

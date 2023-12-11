@@ -1,0 +1,81 @@
+html {
+  font-family: sans-serif;
+}
+body {
+  background-color: rgb(252, 249, 249)
+}
+
+.ylälista {
+  background-color: rgb(239, 233, 230);
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+li {
+  display: inline;
+  list-style-type: none;
+}
+
+ul {
+  margin: 0px;
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  width: 40%;
+  font-size: 15px;
+  
+}
+
+.tuotekategoriat {
+  margin-top: 100px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5)
+}
+
+.reviews-teksti {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+.review-section {
+  background-color:rgb(30, 36, 44);
+  height: 100%;
+  color: white;
+  font-size: 25px;
+  margin-bottom: 160px;
+}
+
+.ala-nappi, .ylä-nappi {
+  background-color:rgb(30, 36, 44);
+  border: none;
+}
+
+.nav-link {
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.footer-teksti {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: rgb(172, 170, 170);
+  font-size: 12px;
+  margin-bottom: 0px;
+  margin-top: 40px;
+  height: 40px;
+}
+.heading-section {
+  margin-bottom: 100px;
+}
+
+.bootstrap-otsikko {
+  text-align: center;
+}
